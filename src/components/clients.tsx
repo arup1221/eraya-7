@@ -33,7 +33,7 @@ export function Clients() {
   }, [controls]);
 
   return (
-    <section id="clients" className="py-20 bg-background">
+    <section id="clients" className="py-20 bg-[#0E1729]">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
