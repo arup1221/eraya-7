@@ -5,7 +5,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 const team = [
   {
-    name: "Sarah Chen",
+    name: "Alex Chen",
     role: "Chief Engineering Officer",
     image: "./person.avif",
   },
