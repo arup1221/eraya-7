@@ -9,7 +9,7 @@ import {
   DialogTitle,
 } from "@/components/ui/dialog";
 import { Cpu, Factory, Users } from "lucide-react";
-import { BackgroundBeams } from "../components/ui/background-beams";
+import { BackgroundBeams } from "./ui/background-beams";
 
 
 const services = [
