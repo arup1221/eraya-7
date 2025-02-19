@@ -6,12 +6,12 @@ import Image from "next/image";
 
 
 const clients = [
-  { name: "TechCorp", logo: "https://placehold.co/200x100/1e3a8a/ffffff?text=TechCorp" },
-  { name: "InnovateSys", logo: "https://placehold.co/200x100/1e3a8a/ffffff?text=InnovateSys" },
-  { name: "FutureTech", logo: "https://placehold.co/200x100/1e3a8a/ffffff?text=FutureTech" },
-  { name: "GlobalEng", logo: "https://placehold.co/200x100/1e3a8a/ffffff?text=GlobalEng" },
-  { name: "NextGen", logo: "https://placehold.co/200x100/1e3a8a/ffffff?text=NextGen" },
-  { name: "SmartSol", logo: "https://placehold.co/200x100/1e3a8a/ffffff?text=SmartSol" },
+  { name: "TechCorp", logo: "./company.svg" },
+  { name: "InnovateSys", logo: "./company.svg" },
+  { name: "FutureTech", logo: "./company.svg" },
+  { name: "GlobalEng", logo: "./company.svg" },
+  { name: "NextGen", logo: "./company.svg" },
+  { name: "SmartSol", logo: "./company.svg" },
 ];
 
 export function Clients() {
@@ -60,7 +60,7 @@ export function Clients() {
                   key={`${client.name}-${index}`}
                   className="w-[200px] h-[100px] bg-blue-900/20 rounded-lg flex items-center justify-center p-6 border border-blue-800/30"
                 >
-                  
+
                   <Image
                     src={client.logo}
                     alt={client.name}

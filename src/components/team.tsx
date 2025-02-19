@@ -7,22 +7,22 @@ const team = [
   {
     name: "Sarah Chen",
     role: "Chief Engineering Officer",
-    image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=200&h=200&auto=format&fit=crop",
+    image: "./person.avif",
   },
   {
     name: "Michael Rodriguez",
     role: "Head of Manufacturing",
-    image: "https://images.unsplash.com/photo-1556157382-97eda2f9e2bf?q=80&w=200&h=200&auto=format&fit=crop",
+    image: "./person.avif",
   },
   {
     name: "Emma Thompson",
     role: "Talent Director",
-    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=200&h=200&auto=format&fit=crop",
+    image: "./person.avif",
   },
   {
     name: "James Wilson",
     role: "Technical Lead",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&h=200&auto=format&fit=crop",
+    image: "./person.avif",
   },
 ];
 
