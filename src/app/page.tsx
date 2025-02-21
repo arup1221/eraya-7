@@ -27,6 +27,7 @@ export default function Home() {
       <Clients />
       <Contact />
       <Footer />
+      
     </main>
   );
 }
