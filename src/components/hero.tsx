@@ -44,7 +44,7 @@ export function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
-              className="text-6xl md:text-8xl tracking-tighter mb-6 bg-clip-text text-transparent bg-gradient-to-r from-gray-500 via-blue-400 to-blue-300 font-(family-name:<custom-property>)"
+              className="text-6xl md:text-8xl tracking-tighter mb-6 bg-clip-text text-transparent bg-gradient-to-r from-[#FFFFFF] to-blue-900 font-(family-name:<custom-property>) brightness-105"
             >
               ERAYA
             </motion.h1>
@@ -53,7 +53,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="text-xl md:text-2xl text-blue-100 mb-8"
+            className="text-xl md:text-2xl text-blue-100 mb-8 bg-black bg-opacity-80 brightness-105 "
           >
             Engineering Excellence, Manufacturing Precision, Talent Innovation
           </motion.p>

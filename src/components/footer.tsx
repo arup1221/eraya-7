@@ -41,7 +41,7 @@ export function Footer() {
           {/* <FallingStarsBackground /> */}
           <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-4 sm:px-6 lg:px-8 text-center sm:text-start">
             <div>
-              <h2 className="text-white text-2xl font-semibold mb-4">ERAYA </h2>
+              <h2 className="text-white text-2xl font-semibold mb-4 font-ailerons">ERAYA </h2>
               <p className="mb-4 text-md">
                 Eraya excels in engineering, precision manufacturing, and talent innovation, delivering cutting-edge solutions with excellence and craftsmanship.
               </p>
