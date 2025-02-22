@@ -4,7 +4,6 @@ import { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import { Orbitron, Audiowide, Exo } from "next/font/google";
 
-// Load fonts for specific use
 const orbitron = Orbitron({ subsets: ["latin"], weight: ["400", "700"] });
 const audiowide = Audiowide({ subsets: ["latin"], weight: ["400"] });
 
@@ -40,12 +39,12 @@ export function Hero() {
       {/* Content */}
       <div className="relative h-full flex items-center justify-center text-center">
         <div className="max-w-4xl px-4">
-          <div className={orbitron.className}>
+          <div className="font-ailerons text-3xl">
             <motion.h1
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
-              className="text-6xl md:text-8xl font-bold tracking-tighter mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-blue-400 to-blue-300 font-(family-name:<custom-property>)"
+              className="text-6xl md:text-8xl tracking-tighter mb-6 bg-clip-text text-transparent bg-gradient-to-r from-gray-500 via-blue-400 to-blue-300 font-(family-name:<custom-property>)"
             >
               ERAYA
             </motion.h1>

@@ -4,15 +4,38 @@ import { useEffect, useRef } from "react";
 import { motion, useAnimation } from "framer-motion";
 import Image from "next/image";
 
+import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
 
-const clients = [
-  { name: "TechCorp", logo: "./company.svg" },
-  { name: "InnovateSys", logo: "./company.svg" },
-  { name: "FutureTech", logo: "./company.svg" },
-  { name: "GlobalEng", logo: "./company.svg" },
-  { name: "NextGen", logo: "./company.svg" },
-  { name: "SmartSol", logo: "./company.svg" },
+const testimonials = [
+  { name: "TechCorp", image: "./company.svg" },
+  { name: "InnovateSys", image: "./company.svg" },
+  { name: "FutureTech", image: "./company.svg" },
+  { name: "GlobalEng", image: "./company.svg" },
+  { name: "NextGen", image: "./company.svg" },
+  { name: "SmartSol", image: "./company.svg" },
 ];
+
+// const testimonials = [
+//   {
+//     quote: "All that we see or seem is but a dream within a dream.",
+//     name: "Edgar Allan Poe",
+//     title: "A Dream Within a Dream",
+//   },
+//   {
+//     quote: "All that we see or seem is but a dream within a dream.",
+//     name: "Edgar Allan Poe",
+//     title: "A Dream Within a Dream",
+//   },
+//   {
+//     quote: "All that we see or seem is but a dream within a dream.",
+//     name: "Edgar Allan Poe",
+//     title: "A Dream Within a Dream",
+//   },
+
+// ];
+
+
+
 
 export function Clients() {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -33,7 +56,7 @@ export function Clients() {
   }, [controls]);
 
   return (
-    <section id="clients" className="py-20 bg-[#0E1729]">
+    <section id="clients" className="py-10 bg-gray-950 max-h-screen">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -48,7 +71,7 @@ export function Clients() {
           </p>
         </motion.div>
 
-        <div className="relative overflow-hidden">
+        {/* <div className="relative overflow-hidden">
           <div ref={containerRef} className="w-full">
             <motion.div
               animate={controls}
@@ -71,7 +94,15 @@ export function Clients() {
               ))}
             </motion.div>
           </div>
-        </div>
+        </div> */}
+
+
+        <InfiniteMovingCards
+          items={testimonials}
+          direction="right"
+          speed="slow"
+        />
+
       </div>
     </section>
   );

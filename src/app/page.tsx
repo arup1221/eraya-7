@@ -8,6 +8,7 @@ import { Team } from "@/components/team";
 import { Clients } from "@/components/clients";
 import { Contact } from "@/components/contact";
 import { Footer } from "@/components/footer";
+import { AllTeam } from "@/components/AllTeam";
 
 export default function Home() {
   const [mounted, setMounted] = useState(false);
@@ -24,9 +25,11 @@ export default function Home() {
       <Hero />
       <Services />
       <Team />
+      {/* <AllTeam /> */}
       <Clients />
       <Contact />
       <Footer />
+
     </main>
   );
 }
