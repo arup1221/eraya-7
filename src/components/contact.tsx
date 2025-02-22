@@ -21,7 +21,7 @@ export function Contact() {
           className="text-center mb-4"
         >
           <h1 className="md:text-4xl text-2xl font-bold text-center text-white relative z-20">
-            Contact US
+            Contact Us
           </h1>
           <div className="flex justify-center">
             <div className="w-[40rem] h-20 relative">
