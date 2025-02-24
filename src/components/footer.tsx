@@ -1,3 +1,4 @@
+"use client";
 import { Github, Linkedin, Twitter } from "lucide-react";
 import Link from "next/link";
 import { FaFacebook } from "react-icons/fa";
@@ -18,8 +19,8 @@ const navItems = [
 const socialLinks = [
   { icon: <FaXTwitter className="hover:text-white transition-colors duration-300" />, href: "#", label: "Twitter" },
   { icon: <FaLinkedin className="hover:text-blue-500 transition-colors duration-300" />, href: "#", label: "LinkedIn" },
-  { icon: <FaFacebook className="hover:text-blue-500 transition-colors duration-300" />, href: "#", label: "GitHub" },
-  { icon: <FaInstagram className="hover:text-pink-500 transition-colors duration-300" />, href: "#", label: "GitHub" },
+  { icon: <FaFacebook className="hover:text-blue-500 transition-colors duration-300" />, href: "#", label: "Facebook" },
+  { icon: <FaInstagram className="hover:text-pink-500 transition-colors duration-300" />, href: "#", label: "Instagram" },
 ];
 
 export function Footer() {
